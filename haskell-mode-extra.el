@@ -1,13 +1,15 @@
 ;; haskell-mode convenience functions
 ;;
-;; trims a line and sends it to the interactive haskell process
-;; useful for testing out code in a monadic block interactively
-;; Now you can run those send those
-;;   x <- monadStuff
-;; lines of code with ease
+;; haskell-line-to-repl trims a line and sends it to the interactive haskell
+;; process useful for testing out code in a monadic block interactively Now you
+;; can run those send those x <- monadStuff lines of code with ease
 ;;
 ;; author: HVic
-;; install: add to .emacs or .spacemacs (in user-config)
+;;
+;; INSTALL
+;; add the following lines to to .emacs or .spacemacs (in user-config):
+;; (load-file "/path/to/haskell-mode-extra.el")
+;; (require 'haskell-mode)
 ;; (define-key haskell-mode-map (kbd "<C-return>") 'haskell-line-to-repl)
 
 ;; trim code: http://ergoemacs.org/emacs/modernization_elisp_lib_problem.html
