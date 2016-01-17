@@ -2,6 +2,9 @@
 ;;
 ;; trims a line and sends it to the interactive haskell process
 ;; useful for testing out code in a monadic block interactively
+;; Now you can run those send those
+;;   x <- monadStuff
+;; lines of code with ease
 ;;
 ;; author: HVic
 ;; install: add to .emacs or .spacemacs (in user-config)
@@ -33,5 +36,3 @@
     (forward-line 1)
     )
   )
-:0
-j
